@@ -1,0 +1,17 @@
+{
+  "name": "vue3-cad-web-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Vue3 wrapper component for thingraph x-viewer SDK (2D / 3D / compare)",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "check": "node -e \"console.log('syntax check skipped for TS/Vue sources')\""
+  },
+  "peerDependencies": {
+    "@x-viewer/core": "^1.0.0",
+    "vue": "^3.4.0"
+  }
+}
